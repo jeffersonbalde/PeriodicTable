@@ -4,7 +4,7 @@ body {
 
 .container {
     border: 4px solid #DC5F00;
-    height: 150vh;
+    height: 180vh;
     border-radius: 10px;
     width: 98%;
     margin: auto;
@@ -39,7 +39,7 @@ body {
     display: grid;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 80%);
 }
 
 .table1 {
@@ -55,4 +55,13 @@ body {
 .table1 > .element:nth-child(5),
 .element:nth-child(13) {
     grid-column-start: 13;
+}
+
+.element:hover {
+    transition: 0.3s;
+    transform: scale(1.125);
+}
+
+.element {
+    margin: 1px;
 }
